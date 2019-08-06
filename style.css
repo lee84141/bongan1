@@ -1,0 +1,22 @@
+@charset "utf-8";
+*{ margin: 0; padding: 0;}
+#wrap          { float: left; width: 1200px; margin: 0 auto;}
+body           { float: center; }
+header         { float: right; text-align: center; padding: 10px}
+.logo          { float: left;    width: 300px;  height: 100px; margin: 0 0 0; padding: 10px; text-align: center;}
+.titname       { float: left;    width: 300px;  height: 100px; margin: 0 0 0; padding: 10px;  text-align: center; font-family: "Jua";  font-size: 60px;}
+.number        { float: right;   width: 300px;  height: 100px; margin: 0 0 0; padding: 10px;  text-align: right; }
+.manu          { float: left;   width: 100%;  height: 35px; padding: 10px; margin: 0 0 0; font-family: "Jua";  font-size: 17px; text-align: center;}
+ul li          { float: center;    width: 100px;  height: 35px; margin: 10px 40px 0; display: inline-block; text-align: center;}
+ul li a        { text-decoration: none; padding: 10px}
+.dlalwltjfaud  { float: left;    width: 100%; height: 100%;  text-align: center;}
+.explain       { float: left;    width: 100%; height: 100%;  padding: 15px 0 15px; text-align: center; font-family: "Jua";  font-size: 20px;}
+.footer        { float: right;   margin: 30px 15px 0;}
+.footer a      { float: left; width: 100%; height: 20px;  margin: 5px 0 5px; text-align: right; font-family: "Gothic+A1";  font-size: 14px;}
+
+@media only screen and (max-width: 1220px) {
+#wrap {width: 100%;margin: 0 auto; vertical-align: middle; box-sizing: border-box;}
+section img {width:100%;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1028px)
